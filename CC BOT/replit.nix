@@ -1,6 +1,6 @@
 { pkgs }: {
-	deps = [
-		pkgs.php80Packages.composer
-  pkgs.php82
-	];
+  deps = [
+    pkgs.php82Packages.composer
+    pkgs.php82
+  ];
 }
